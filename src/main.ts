@@ -18,4 +18,4 @@ document.body.onresize = updateCardSize;
 setTimeout(() => {
   document.getElementById("loading")!.className = "hidden";
   card!.className = "animate";
-}, 3000);
+}, 4500);
