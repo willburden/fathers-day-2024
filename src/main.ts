@@ -15,7 +15,16 @@ const updateCardSize = () => {
 updateCardSize();
 document.body.onresize = updateCardSize;
 
+
+const url = `${import.meta.env.BASE_URL}/leaves-tiling.jpg`;
+
+const image = new Image();
+
+console.log("Loading");
+image.src = url;
+card!.style.backgroundImage = `url(${url})`;
+
 setTimeout(() => {
   document.getElementById("loading")!.className = "hidden";
   card!.className = "animate";
-}, 4500);
+}, 2000);

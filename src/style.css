@@ -23,7 +23,7 @@
 }
 
 body {
-  background-image: url("../public/5-dots.webp");
+  background-image: url("/5-dots.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,7 +47,6 @@ body {
 
   padding: 30px;
   background-color: white;
-  background-image: url("../public/leaves-tiling.jpg");
   background-size: auto 472px;
   border-radius: 15px;
 
